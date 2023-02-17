@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="assets/CSS/Simple Line Icons/css/simple-line-icons.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="p location.png" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="ionicons.min.css" />
+    <title>YallaParking</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <div
+      class="container-fluid"
+      id="navbar"
+      style="width: 100%; background-color: white">
+      <div class="row">
+        <div class="col">
+          <img
+            src="logo.png"
+            alt="YallaParking"
+            style="
+              margin-left: 100px;
+              margin-top: 15px;
+              width: 120px;
+              height: 50px;
+            " />
+        </div>
+        <div class="col" id="nav-links" style="margin-left: 70px">
+          Parking Operators
+        </div>
+        <div class="col" id="nav-links">Download Our App</div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col" id="nav-links">
+          <a
+            aria-current="page"
+            href="#"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+            style="color: #444">
+            <span class="icon-login"></span> Log In</a
+          >
+        </div>
+        <div class="col" id="nav-links" style="margin-left: -100px">
+          Register
+        </div>
+      </div>
+    </div>
+    <!-- Navbar End -->
+    <!-- Google Map -->
+    <div>
+      <input
+        type="text"
+        class="form-control theInput"
+        placeholder="Enter Your Location" />
+      <button class="btn searchBtn">Search</button>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.6281212953877!2d55.138113714857994!3d25.080590483950566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b88b6b0979d%3A0x2571bf4ea1213fc8!2sYallaParking%20-%20Intercontinental!5e0!3m2!1sen!2seg!4v1676553225488!5m2!1sen!2seg"
+      width="100%"
+      height="600"
+      style="border: 0; position: relative; z-index: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <a href="" class="btn text-right" id="scroll"
+      ><span class="icon-mouse"></span>Enable Scrolling</a
+    >
+    <!----------------------------------------------------------------------------------------------------------->
+    <!-- Cards Start -->
+    <h1 style="text-align: center">
+      Don't waste your time looking for a place to park
+    </h1>
+    <h4 style="text-align: center; margin: 30px; color: gray">
+      Search our listings and find the perfect spot near your home or office.
+    </h4>
+    <div class="card-deck">
+      <div class="card" style="border: none">
+        <img
+          class="card-img-top"
+          src="search for parking.png"
+          style="width: 200px; margin: auto"
+          alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title text-center">Search For Parking</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="border: none">
+        <img
+          class="card-img-top"
+          src="book parking.png"
+          alt="Card image cap"
+          style="width: 200px; margin: auto" />
+        <div class="card-body">
+          <h5 class="card-title text-center">Book Parking</h5>
+          <p class="card-text text-center">
+            This card has supporting text below as a natural lead-in to
+            additional content.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="border: none">
+        <img
+          class="card-img-top"
+          src="park your car.png"
+          alt="Card image cap"
+          style="width: 200px; margin: auto" />
+        <div class="card-body">
+          <h5 class="card-title text-center">Park Your Car</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This card has even longer content than the
+            first to show that equal height action.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Cards End -->
+    <!----------------------------------------------------------------------------------------------------------->
+    <!-- Caruosel Start -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+      style="height: 300px; margin: 100px 400px">
+      <div class="carousel-inner">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+            style="border-radius: 50%; width: 10px; height: 10px"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="1"
+            style="border-radius: 50%; width: 10px; height: 10px"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="2"
+            style="border-radius: 50%; width: 10px; height: 10px"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="3"
+            style="border-radius: 50%; width: 10px; height: 10px"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="4"
+            style="border-radius: 50%; width: 10px; height: 10px"></li>
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="5"
+            style="border-radius: 50%; width: 10px; height: 10px"></li>
+        </ol>
+        <div class="carousel-item active">
+          <img
+            class="d-block"
+            style="width: 700px; height: 500px"
+            src="lake towers.jpg"
+            alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block active"
+            style="width: 700px; height: 500px"
+            src="Dubai Marina.jpg"
+            alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block"
+            style="width: 700px; height: 500px"
+            src="Down Town.jpg"
+            alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block"
+            style="width: 700px; height: 500px"
+            src="barshaheights.png"
+            alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block"
+            style="width: 700px; height: 500px"
+            src="DIFC.jpg"
+            alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block"
+            style="width: 700px; height: 500px"
+            src="sheikh zayed.jpg"
+            alt="Third slide" />
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev">
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+            style="color: black"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next">
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+            style="color: black"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!-- Caruosel End -->
+    <!----------------------------------------------------------------------------------------------------------->
+    <footer style="margin-top: 300px">
+      <div>
+        <div class="row">
+          <div class="col-md-3" style="margin-left: 90px">
+            <div class="logo">
+              <img src="logo.png" alt="Logo" />
+            </div>
+            <p>
+              Rent an unused space from a neighbour in your building or area,
+              OR, earn money renting yours out to a neighbour in need.
+            </p>
+          </div>
+          <div
+            class="col-md-3"
+            style="margin-left: 350px; margin-right: -100px">
+            <h4 style="margin-left: 40px">Helpful Links</h4>
+            <ul style="list-style: none">
+              <li>
+                <a href="#" class="icon-arrow-right" style="color: #707070"
+                  >Log In</a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon-arrow-right" style="color: #707070"
+                  >Register</a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon-arrow-right" style="color: #707070"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon-arrow-right" style="color: #707070"
+                  >Commercial <br />
+                  Partners</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3" style="margin-left: -180px; margin-top: 38px">
+            <ul style="list-style: none">
+              <li>
+                <a href="#" class="icon-arrow-right" style="color: #707070"
+                  >FAQs</a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon-arrow-right" style="color: #707070"
+                  >Terms & <br />
+                  Conditions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon-arrow-right" style="color: #707070"
+                  >Cancellation & <br />
+                  Refund</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3" style="margin-left: -100px; max-width: 203px">
+            <h4>Contact Us</h4>
+            <p>
+              In5 Innovation Centre, Boutique Office Villa #7, Dubai Media City,
+              Dubai, United Arab Emirates Phone: +971585772881 E-Mail:
+              <span style="color: #f18120">hello@yallaparking.com</span>
+            </p>
+            <span class="icon-social-facebook"></span>
+            <span class="icon-social-twitter"></span>
+          </div>
+        </div>
+      </div>
+      <h6 style="text-align: center">
+        © 2017 - 2020 YallaParking Internet FZ LLC. All Rights Reserved.
+      </h6>
+    </footer>
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close d-flex align-items-center justify-content-center"
+              data-dismiss="modal"
+              aria-label="Close">
+              <span aria-hidden="true" class="ion-ios-close"></span>
+            </button>
+          </div>
+          <div class="modal-body p-4 py-5 p-md-5">
+            <h3 class="text-center mb-3">Create Your Account</h3>
+            <ul class="ftco-footer-social p-0 text-center">
+              <li class="ftco-animate" style="list-style: none">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Twitter"
+                  ><span class="ion-logo-twitter"></span
+                ></a>
+              </li>
+              <li class="ftco-animate" style="list-style: none">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Facebook"
+                  ><span class="ion-logo-facebook"></span
+                ></a>
+              </li>
+              <li class="ftco-animate" style="list-style: none">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title="Google"
+                  ><span class="ion-logo-google" id="googleBtn"></span
+                ></a>
+              </li>
+            </ul>
+            <form action="#" class="signup-form">
+              <div class="form-group mb-2">
+                <label for="name">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="John Doe" />
+              </div>
+              <div class="form-group mb-2">
+                <label for="email">Email Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="johndoe@gmail.com" />
+              </div>
+              <div class="form-group mb-2">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Password" />
+              </div>
+              <div class="form-group mb-2">
+                <button
+                  type="submit"
+                  class="form-control btn btn-primary rounded submit px-3">
+                  Sign Up
+                </button>
+              </div>
+              <div class="form-group d-md-flex">
+                <div class="w-100 text-center">
+                  <a href="#" class="forgot">I'm already a member</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/popper.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/jquery-3.6.3.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+  </body>
+</html>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import {
+    getAuth,
+    GoogleAuthProvider,
+    signInWithRedirect,
+    getRedirectResult,
+    signInWithPopup,
+  } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAa9R_umcPG0APgIfYd7tUMDp6Sqtm_7rk",
+    authDomain: "yallparking-3a77f.firebaseapp.com",
+    projectId: "yallparking-3a77f",
+    storageBucket: "yallparking-3a77f.appspot.com",
+    messagingSenderId: "886849229719",
+    appId: "1:886849229719:web:12d904840849680d6eaad2",
+    measurementId: "G-VB1RGWWHXJ",
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const provider = new GoogleAuthProvider(app);
+  const auth = getAuth(app);
+
+  var googleBtn = document.getElementById("googleBtn");
+  googleBtn.addEventListener("click", (e) => {
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        // This gives you a Google Access Token. You can use it to access the Google API.
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+        const token = credential.accessToken;
+        // The signed-in user info.
+        const user = result.user;
+        // name = displayName
+        // email = email
+        // photo = photoURL
+        alert("الايميل اتبعت يابا");
+        // ...
+      })
+      .catch((error) => {
+        // Handle Errors here.
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        // The email of the user's account used.
+        const email = error.email;
+        // The AuthCredential type that was used.
+        const credential = GoogleAuthProvider.credentialFromError(error);
+        // ...
+        alert(errorMessage);
+      });
+  });
+</script>
